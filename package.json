@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/Juriy/virtualclass/issues"
   },
-  "homepage": "https://github.com/Juriy/virtualclass#readme"
+  "homepage": "https://github.com/Juriy/virtualclass#readme",
+  "dependencies": {
+    "socket.io": "^1.4.4"
+  }
 }

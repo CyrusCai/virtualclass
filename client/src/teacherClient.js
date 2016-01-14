@@ -2,8 +2,7 @@
 
 var sock = io();
 
-var question = function setJson(){
-	
+function setJson(){	
 	var optionOne = document.getElementById('optionOne').value;
 	var optionTwo = document.getElementById('optionTwo').value;
 	var questionOne = document.getElementById('questionOne').value;
@@ -11,7 +10,8 @@ var question = function setJson(){
 	var question = {};
 
 	question[questionOne] = [optionOne, optionTwo];
-	return JSON.stringify(question);	
+	var response = JSON.stringify(question);
+	sock.emit('questionFromTeacher', response);	
 };
 
 sock.on('answerToTeacher', displayAnswer);
@@ -24,4 +24,3 @@ function displayAnswer(answer) {
     
 }
 
-sock.emit('questionFromTeacher', question);
