@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>teacher</title>
-		<script src="src/client.js"></script>
+		
 	<head>
 	<body>
 		<form ng-controller="jsonController">
@@ -16,6 +16,13 @@
 				<input type="button" value="Submit" onclick="setJson()" />
 			</div>
 		</form>
-		<script src="/lib/socket.io/socket.io.js"></script>
+		<div>
+			<p>Question:</p>
+			<p id="questionST"></p>
+			<p>Answer:</p>
+			<p id="answerST"></p>
+		</div>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="src/teacherClient.js"></script>
 	</body>
 </html>
