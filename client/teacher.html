@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>teacher</title>
+		<script src="src/client.js"></script>
+	<head>
+	<body>
+		<form ng-controller="jsonController">
+			<div>
+				<lable>Question:</label>
+				<input type="text" name="questionOne" id="questionOne" />
+				<lable>Option 1:</label>
+				<input type="text" name="optionOne" id="optionOne" />
+				<lable>Option 2:</label>
+				<input type="text" name="optionTwo" id="optionTwo" />
+				<input type="button" value="Submit" onclick="setJson()" />
+			</div>
+		</form>
+		<script src="/lib/socket.io/socket.io.js"></script>
+	</body>
+</html>
