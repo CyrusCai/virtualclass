@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+
+</head>
+<body>
+    <form  name = "student">
+        <br>
+           <label>Question:</label>
+           <input type="text" name="question" id = "question" >
+        </br>
+        <br><input type="radio" name="opention" id = "option1">A:aa </input></br>
+        <br><input type="radio" name="opention" id = "option2">B:bb </input></br>
+        <br><input type="radio" name="opention" id = "option3">C:cc </input></br>
+        <br><input type="radio" name="opention" id = "option4">D:dd </input></br>
+        <br><input type="button" name = "submit" id = "submit" value = "submit" onclick="setAns2Json()"/></br>
+    </form>
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src = "client.js"></script>
+</body>
+</html>
