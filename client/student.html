@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title></title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
 
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+      integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"/>
+<head>
+    <title>Student Client</title>
 </head>
 <body>
-    <form  name = "student">
-        <br>
-           <label>Question:</label>
-           <input type="text" name="question" id = "question" >
-        </br>
-        <br><input type="radio" name="opention" id = "option1">A:aa </input></br>
-        <br><input type="radio" name="opention" id = "option2">B:bb </input></br>
-        <br><input type="radio" name="opention" id = "option3">C:cc </input></br>
-        <br><input type="radio" name="opention" id = "option4">D:dd </input></br>
-        <br><input type="button" name = "submit" id = "submit" value = "submit" onclick="setAns2Json()"/></br>
-    </form>
-    <script src = "/socket.io/socket.io.js"></script>
-    <script src = "client.js"></script>
+    <!--<form  name = "student">-->
+        <!--&lt;!&ndash; <br><label>student Answer is:</label><label id="studentAnswer"></label></br>-->
+         <!--<button id="sendButton" value="send"> </button> &ndash;&gt;-->
+     <!--</form>-->
+     <!--&lt;!&ndash; <script src = "/socket.io/socket.io.js"></script> &ndash;&gt;-->
+    <script src="src/mock-server.js"></script>
+    <script src="src/studentClient.js"></script>
 </body>
 </html>
