@@ -1,0 +1,24 @@
+{
+  "name": "virtualclass",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Juriy/virtualclass",
+  "authors": [
+    "Juriy Bura <juriy.bura@gmail.com>"
+  ],
+  "description": "A virtual classroom platform",
+  "keywords": [
+    "Virtual",
+    "Classroom",
+    "Quiz"
+  ],
+  "license": "ISC",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/vnd",
+    "test",
+    "tests"
+  ]
+}

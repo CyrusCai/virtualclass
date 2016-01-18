@@ -24,7 +24,10 @@
   },
   "homepage": "https://github.com/Juriy/virtualclass#readme",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.13.3",
+=======
+>>>>>>> upstream/master
     "socket.io": "^1.4.4"
   }
 }
